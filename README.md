@@ -1,4 +1,18 @@
-### Hi there 👋
+```js
+class Me {
+  constructor(){
+    this.firstname = "Anders";
+    this.lastname = "Jonsson";
+    this.alias = "AndersJson";
+    this.introduce();
+  }
+ introduce() {
+  console.log(`Hi, my name is ${this.firstname} ${this.lastname}, also known as ${this.alias}`);
+ }
+}
+ 
+new Me();
+```
 
 <!--
 **AndersJson/AndersJson** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
